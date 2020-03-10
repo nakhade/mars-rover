@@ -1,0 +1,21 @@
+.command-sender > input {
+  width: 260px;
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.command-sender > button {
+  padding: 8px 10px;
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.command-sender > ul > li {
+  padding: 3px;
+}
+
+.errorMessage {
+  color: red;
+}

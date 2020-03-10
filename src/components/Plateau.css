@@ -1,0 +1,98 @@
+.tile-container {
+  display: inline-block;
+}
+.tile-row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.tile {
+  background-color: #f1f1f1;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  border: 1px solid #e3e3e3;
+}
+
+.tile > span {
+  font-size: 9px;
+}
+
+.traversed {
+  background-color: lightgray;
+  border: 1px solid royalblue;
+}
+
+.current-location {
+  background-color: lightblue;
+  border: 1px solid royalblue;
+}
+
+.rocket {
+  height: 30px;
+}
+
+.north-facing {
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+}
+
+.east-facing {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+}
+.south-facing {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+}
+
+.west-facing {
+  transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+}
+
+.tile-start {
+  background-color: lightgreen;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  border: 1px solid green;
+}
+
+.tile-current-position {
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+  border: 1px solid royalblue;
+}
+
+.y-axis {
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: gray;
+  border: 1px solid transparent;
+}
+.x-axis {
+  width: 50px;
+  height: 50px;
+  margin: 1px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 14px;
+  color: gray;
+  border: 1px solid transparent;
+}
